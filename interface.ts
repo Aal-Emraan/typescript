@@ -22,3 +22,26 @@ const hannan: Player = {
     salary: 4464,
     club: 'abahoni',
 }
+
+interface info{
+    name: string,
+    age: number,
+    designation: string,
+}
+
+interface Developer extends info {
+    language: string,
+    codeEditor: string,
+    salary: number,
+    favouriteThing: string
+}
+
+const aal: Developer = {
+    language: 'js',
+    codeEditor: 'vs code',
+    salary: 2300,
+    favouriteThing: 'playing games',
+    name: 'aal emraan',
+    age: 23,
+    designation: 'ceo'
+}
